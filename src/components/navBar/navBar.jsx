@@ -35,7 +35,7 @@ export default function Navbar() {
       </nav>
 
       <div className="flex">
-        <SecondButton>Log In</SecondButton>
+        <SecondButton className={"mx-2"}>Log In</SecondButton>
         <GradientButton>Sign In</GradientButton>
       </div>
     </div>
