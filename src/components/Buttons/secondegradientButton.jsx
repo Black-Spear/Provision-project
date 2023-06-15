@@ -18,6 +18,6 @@ export default function SecondButton({
 }
 SecondButton.propTypes = {
   children: PropTypes.node.isRequired,
-  classNames: PropTypes.string,
+  className: PropTypes.string,
   onClick: PropTypes.func,
 };
