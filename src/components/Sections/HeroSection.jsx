@@ -7,7 +7,7 @@ export default function HeroSection() {
       <div className="grid grid-cols-1 justify-items-center ">
         <div className="text-center my-14     ">
           <p className="text-secondary  text-xl ">
-            Provison Education Platforme
+            Provison Education Platform
           </p>
           <h1 className="text-6xl  font-bold leading-normal text-white ">
             Become the greatest,
@@ -25,6 +25,5 @@ export default function HeroSection() {
         </div>
       </div>
     </section>
-    
   );
 }

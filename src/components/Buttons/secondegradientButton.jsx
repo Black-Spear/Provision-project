@@ -7,7 +7,7 @@ export default function SecondButton({
   ...props
 }) {
   const cx = classNames([
-    " border-2  border-white text-white rounded-2xl py-2 px-4 my-5  ",
+    " border-2  border-white text-white rounded-2xl py-2 px-4  ",
     className,
   ]);
   return (

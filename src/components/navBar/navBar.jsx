@@ -1,43 +1,38 @@
 import logo from "../../images/Logo_Color.svg";
 import GradientButton from "../Buttons/gradientButton";
-import SecondButton from "../Buttons/secondegradientButton";
+
 export default function Navbar() {
+  const hamburger = new URL(
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png"
+    // ADD THIS FOR A LOCAL FILE: import.meta.url
+  ).href;
   return (
-    <div className="sticky  flex justify-between items-center ">
-      <div className="flex mr-6 w-44       ">
+    <header className="sticky flex items-center justify-between p-[4vh] px-6">
+      <div className=" w-40 ">
         <img src={logo} alt="Provision" />
       </div>
-      <nav className="flex ">
-        <a
-          href=""
-          className="border-b-4   border-transparent mx-6  text-white hover:border-b-primary "
-        >
+      <nav className="hidden  gap-8 md:flex">
+        <a href="" className="   text-white hover:text-primary ">
           Home
         </a>
-        <a
-          href=""
-          className="border-b-4 border-transparent mx-6 text-white hover:border-b-primary"
-        >
+        <a href="" className="   text-white hover:text-primary">
+          Learn
+        </a>
+        <a href="" className="   text-white hover:text-primary">
           About
         </a>
-        <a
-          href=""
-          className="border-b-4 border-transparent mx-6 text-white hover:border-b-primary"
-        >
-          learn
-        </a>
-        <a
-          href=""
-          className="border-b-4 border-transparent mx-6 text-white hover:border-b-primary"
-        >
+        <a href="" className="   text-white hover:text-primary">
           Contact
         </a>
       </nav>
 
-      <div className="flex">
-        <SecondButton className={"mx-2"}>Log In</SecondButton>
-        <GradientButton>Sign In</GradientButton>
+      <div className=" hidden items-center md:flex">
+        <p className="pr-4 text-white">Log in</p>
+        <GradientButton>Sign up</GradientButton>
       </div>
-    </div>
+      <div className="w-8 md:hidden">
+        <img src={hamburger} alt="navigation links button" />
+      </div>
+    </header>
   );
 }
