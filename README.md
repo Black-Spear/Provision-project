@@ -47,9 +47,7 @@ Together, let's empower Tunisian youth with modern tech skills. Join us in shapi
 - [Vite](https://vitejs.dev/): A fast build tool for modern web applications.
 - [React](https://reactjs.org/): A JavaScript library for building user interfaces.
 - [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapid UI development.
-- [Prisma](https://www.prisma.io/): A modern database toolkit for TypeScript and Node.js.
-- [PlanetScale](https://www.planetscale.com/): A serverless MySQL-compatible database platform.
+- [Supabase]([https://www.prisma.io/](https://supabase.com/)): Supabase is an open source Firebase alternative for building secure and performant Postgres backends.
 
-- edit: for db we now use Supabase 
 
 We appreciate your support and dedication. Happy learning! 🚀📚
