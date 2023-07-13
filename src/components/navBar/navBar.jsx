@@ -7,7 +7,7 @@ export default function Navbar() {
     // ADD THIS FOR A LOCAL FILE: import.meta.url
   ).href;
   return (
-    <header className="sticky flex items-center justify-between p-[4vh] px-6">
+    <header className="sticky flex items-center justify-between px-6 py-[4vh]">
       <div className=" w-40 ">
         <img src={logo} alt="Provision" />
       </div>

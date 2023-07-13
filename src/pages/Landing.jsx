@@ -6,8 +6,8 @@ export default function Landing() {
     <>
       {/* background blurry blobs  */}
       <div
-        style={{ width: "100svw" }}
-        className="absolute h-screen overflow-hidden"
+        style={{ width: "100%", zIndex: -10 }}
+        className="absolute h-screen overflow-x-hidden "
       >
         <div className="absolute left-[-7%] top-[22%] -z-10 h-1/5 w-1/5 rounded-full bg-primary blur-[5em] xl:blur-[10em]"></div>
         <div className="absolute right-[-7%] top-[50%] -z-10 h-1/5 w-1/5 rounded-full bg-primary blur-[5em] xl:blur-[10em]"></div>
